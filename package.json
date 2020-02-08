@@ -1,0 +1,24 @@
+{
+  "name": "nodeimagecacheserver",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node src/app.js",
+    "start:dev": "nodemon --watch src/ src/app.js"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.0",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.5.0",
+    "axios": "^0.19.2",
+    "debug": "~2.6.9",
+    "koa": "^2.11.0",
+    "koa-router": "^7.4.0",
+    "node-cache": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "webpack-cli": "^3.3.5"
+  }
+}
